@@ -1,0 +1,14 @@
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\bin\Debug\net7.0\Hem_Kod.exe
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\bin\Debug\net7.0\Hem_Kod.deps.json
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\bin\Debug\net7.0\Hem_Kod.runtimeconfig.json
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\bin\Debug\net7.0\Hem_Kod.dll
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\bin\Debug\net7.0\Hem_Kod.pdb
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.AssemblyInfoInputs.cache
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.AssemblyInfo.cs
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.csproj.CoreCompileInputs.cache
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.dll
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\refint\Hem_Kod.dll
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.pdb
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\Hem_Kod.genruntimeconfig.cache
+C:\Skola\C-sharp\Exercises\Hem_Kod\Hem_Kod\obj\Debug\net7.0\ref\Hem_Kod.dll
