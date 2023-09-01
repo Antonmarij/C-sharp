@@ -1,7 +1,14 @@
 ﻿using System;
+using System.Net.WebSockets;
+using System.Net;
 using System.Threading.Tasks;
 using Discord;
+using Discord.Net.Queue;
+using Discord.Net;
 using Discord.WebSocket;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using Discord.Commands;
+using System.Windows.Input;
 
 class Program
 {
@@ -20,7 +27,9 @@ class Program
         _client.Log += LogAsync;
         _client.Ready += ReadyAsync;
 
-        await _client.LoginAsync(TokenType.Bot, MTE0NzIwMDgyNzA1Mjc4OTgzMQ.GIa1EX.6WYll6bcXaUa7dWkPnvmr - P4eCn6N56aNx4fvg);
+        string botToken = Environment.GetEnvironmentVariable("Discord_Bot_Token");
+
+        await _client.LoginAsync(TokenType.Bot, botToken);
         await _client.StartAsync();
 
         await Task.Delay(-1);
@@ -35,7 +44,27 @@ class Program
     private async Task ReadyAsync()
     {
         Console.WriteLine("Bot is connected and ready!");
+        
+    }
+    private async Task HandleCommandAsync(SocketMessage arg)
+    {
+        var message = arg as SocketUserMessage;
+        var context = new SocketCommandContext(_client, message);
 
-        // Your bot's code goes here.
+        if (message.Author.IsBot) return;
+
+        int argPos = 0;
+        if (message.HasStringPrefix("!", ref argPos))
+        {
+            var result = await _commands.ExecuteAsync(context, argPos, _services);
+            if (!result.IsSuccess)
+                Console.WriteLine(result.ErrorReason);
+        }
+    }
+
+    [Command("hello")]
+    public async Task HelloCommand()
+    {
+        await _context.Channel.SendMessageAsync("Hello! How can I assist you today?");
     }
 }
