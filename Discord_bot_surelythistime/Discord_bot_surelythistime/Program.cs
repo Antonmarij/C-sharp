@@ -16,8 +16,12 @@ class Program
         
         discord.MessageCreated += async (s, e) =>
         {
-            if (e.Message.Content.ToLower().StartsWith("ping"))
-                await e.Message.RespondAsync("pong!"); 
+            if (e.Message.Content.ToLower().StartsWith("!dovla"))
+                await e.Message.RespondAsync("is stupid!");
+            if (e.Message.Content.ToLower().StartsWith("!moop"))
+                await e.Message.RespondAsync("is the cutest boy ever :3");
+            if (e.Message.Content.ToLower().StartsWith("!hyph"))
+                await e.Message.RespondAsync("is the only smart brit out there lul");
         };
         await discord.ConnectAsync();
         await Task.Delay(-1);
