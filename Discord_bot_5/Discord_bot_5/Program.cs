@@ -1,70 +1,59 @@
-﻿using System;
-using System.Net.WebSockets;
-using System.Net;
-using System.Threading.Tasks;
-using Discord;
-using Discord.Net.Queue;
-using Discord.Net;
-using Discord.WebSocket;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using Discord;
 using Discord.Commands;
-using System.Windows.Input;
+using Discord.WebSocket;
+using System.Runtime.CompilerServices;
 
-class Program
+public class Program
 {
-    private DiscordSocketClient _client;
-
-    public static async Task Main(string[] args)
-    {
-        var program = new Program();
-        await program.RunBotAsync();
-    }
-
-    public async Task RunBotAsync()
+    public static Task Main(string[] args)
+=> new Program().MainAsync();
+    public async Task MainAsync()
     {
         _client = new DiscordSocketClient();
 
-        _client.Log += LogAsync;
-        _client.Ready += ReadyAsync;
+        _client.Log += Log;
 
-        string botToken = Environment.GetEnvironmentVariable("Discord_Bot_Token");
+        var token = Environment.GetEnvironmentVariable("Discord_Bot_Token");
 
-        await _client.LoginAsync(TokenType.Bot, botToken);
+        await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync();
 
         await Task.Delay(-1);
     }
-
-    private Task LogAsync(LogMessage log)
+    private Task Log(LogMessage msg)
     {
-        Console.WriteLine(log);
+        Console.WriteLine(msg.ToString());
         return Task.CompletedTask;
     }
 
-    private async Task ReadyAsync()
+    private DiscordSocketClient _client;
+}
+public class CommandHandler
+{
+    private readonly DiscordSocketClient _client;
+    private readonly CommandService _commands;
+    public CommandHandler(DiscordSocketClient client, CommandService commands)
     {
-        Console.WriteLine("Bot is connected and ready!");
-        
+        _commands = commands;
+        _client = client;
     }
-    private async Task HandleCommandAsync(SocketMessage arg)
+    // hyph si a gimp
+    public async Task InstallCommandsAsync()
     {
-        var message = arg as SocketUserMessage;
-        var context = new SocketCommandContext(_client, message);
+        _client.MessageReceived += HandleCommandAsync;
+        await _commands.AddModulesAsync(assembly: Assembly.GetEntryAssembly(), services: null);
 
-        if (message.Author.IsBot) return;
-
+    }
+    private async Task HandleCommandAsync(SocketMessage messageParam)
+    {
+        var message = messageParam as SocketUserMessage;
+        if (message == null) return;
         int argPos = 0;
-        if (message.HasStringPrefix("!", ref argPos))
-        {
-            var result = await _commands.ExecuteAsync(context, argPos, _services);
-            if (!result.IsSuccess)
-                Console.WriteLine(result.ErrorReason);
-        }
-    }
-
-    [Command("hello")]
-    public async Task HelloCommand()
-    {
-        await _context.Channel.SendMessageAsync("Hello! How can I assist you today?");
+        if (!(message.HasCharPrefix('!', ref argPos) ||
+            message.HasMentionPrefix(_client.CurrentUser, ref argPos)) ||
+            message.Author.IsBot)
+            return;
+        var context = new SocketCommandContext(_client, message);
+        await _commands.ExecuteAsync(context: context, argPos: argPos, services: null);
     }
 }
