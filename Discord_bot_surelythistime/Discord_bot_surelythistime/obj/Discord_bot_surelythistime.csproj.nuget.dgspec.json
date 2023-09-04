@@ -48,6 +48,10 @@
             "DSharpPlus": {
               "target": "Package",
               "version": "[4.4.2, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.4.2, )"
             }
           },
           "imports": [

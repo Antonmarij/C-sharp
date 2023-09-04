@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zAuaAsN1nzpKJI6vhgAcW1Fg8gxP+cWyNeXJRX4VgZhxxfOw1J+sm+hOliKAmILh3Uy3MKHrbSgoGpxoL6wmQw==",
+  "dgSpecHash": "j6XenQYsKT9SNJ9cOK0wlXGRe75vCLfgIa6KKL5IJx/f526RaoP+uMAdFtnXjSeXWmVAH2tugixly6hvF2vdVg==",
   "success": true,
   "projectFilePath": "C:\\Skola\\C-sharp\\Exercises\\Discord_bot_surelythistime\\Discord_bot_surelythistime\\Discord_bot_surelythistime.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton\\.nuget\\packages\\dsharpplus\\4.4.2\\dsharpplus.4.4.2.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\dsharpplus.commandsnext\\4.4.2\\dsharpplus.commandsnext.4.4.2.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
