@@ -17,3 +17,6 @@ C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime
 C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime\obj\Debug\net7.0\Discord_bot_surelythistime.pdb
 C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime\obj\Debug\net7.0\Discord_bot_surelythistime.genruntimeconfig.cache
 C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime\obj\Debug\net7.0\ref\Discord_bot_surelythistime.dll
+C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime\bin\Debug\net7.0\DSharpPlus.CommandsNext.dll
+C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Skola\C-sharp\Exercises\Discord_bot_surelythistime\Discord_bot_surelythistime\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

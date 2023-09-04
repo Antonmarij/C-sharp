@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 
 public class MyFirstModule : BaseCommandModule
 {
-    [Command("greet")]
-    public async Task GreetCommand(CommandContext ctx)
+    [Command("guide")]
+    public async Task GreetCommand(CommandContext ctx, string playerClass)
     {
-        await ctx.RespondAsync("Greetings!");
+        switch(playerClass)
+        await ctx.RespondAsync($"Greetings!, {name}! You're ugly as fuck");
     }
 }
