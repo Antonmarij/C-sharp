@@ -16,7 +16,7 @@ class Program
         });
         var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
         {
-            StringPrefixes = new[] { "!" },
+            StringPrefixes = new[] {"!"},
         });
 
         commands.RegisterCommands<MyFirstModule>();

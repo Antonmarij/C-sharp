@@ -29,20 +29,20 @@ public class MyFirstModule : BaseCommandModule
 
 public class MySecondModule : BaseCommandModule
 {
-    [Command("name")]
+    [Command("!")]
     public async Task NameCommand(CommandContext ctx, string name)
     {
         switch (name.ToLower())
         {
             case "floyz":
-                await ctx.RespondAsync($"who, {name}, the bollywood pooper?");
+                await ctx.RespondAsync("who, the bollywood pooper?");
                 break;
 
             case "hyph":
                 await ctx.RespondAsync("beast unleashed");
                 break;
             default:
-                await ctx.RespondAsync($"wh :omegalul:");
+                await ctx.RespondAsync("WHO THE FUCK LUL, i don't know that murkh...");
                 break;
         }
     }
