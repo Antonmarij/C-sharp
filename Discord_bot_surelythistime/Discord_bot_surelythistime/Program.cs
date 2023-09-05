@@ -16,10 +16,12 @@ class Program
         });
         var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
         {
-            StringPrefixes = new[] {"!"}
-        }
-            );
+            StringPrefixes = new[] { "!" },
+        });
+
         commands.RegisterCommands<MyFirstModule>();
+        commands.RegisterCommands<MySecondModule>();
+
         
        
         //discord.MessageCreated += async (s, e) =>
