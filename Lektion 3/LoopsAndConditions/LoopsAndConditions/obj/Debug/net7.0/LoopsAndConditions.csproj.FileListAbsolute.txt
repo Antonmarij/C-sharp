@@ -1,0 +1,14 @@
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\bin\Debug\net7.0\LoopsAndConditions.exe
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\bin\Debug\net7.0\LoopsAndConditions.deps.json
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\bin\Debug\net7.0\LoopsAndConditions.runtimeconfig.json
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\bin\Debug\net7.0\LoopsAndConditions.dll
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\bin\Debug\net7.0\LoopsAndConditions.pdb
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.AssemblyInfoInputs.cache
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.AssemblyInfo.cs
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.csproj.CoreCompileInputs.cache
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.dll
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\refint\LoopsAndConditions.dll
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.pdb
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\LoopsAndConditions.genruntimeconfig.cache
+C:\Skola\C-sharp\Exercises\Lektion 3\LoopsAndConditions\LoopsAndConditions\obj\Debug\net7.0\ref\LoopsAndConditions.dll
