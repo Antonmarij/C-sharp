@@ -1,0 +1,14 @@
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\bin\Debug\net7.0\04_classes_Inheritance.exe
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\bin\Debug\net7.0\04_classes_Inheritance.deps.json
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\bin\Debug\net7.0\04_classes_Inheritance.runtimeconfig.json
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\bin\Debug\net7.0\04_classes_Inheritance.dll
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\bin\Debug\net7.0\04_classes_Inheritance.pdb
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.AssemblyInfoInputs.cache
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.AssemblyInfo.cs
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.csproj.CoreCompileInputs.cache
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.dll
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\refint\04_classes_Inheritance.dll
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.pdb
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\04_classes_Inheritance.genruntimeconfig.cache
+C:\Skola\C-sharp\Exercises\Lektion-4\del 1(rename)\05_Classes_Inheritance\obj\Debug\net7.0\ref\04_classes_Inheritance.dll
