@@ -1,4 +1,6 @@
-﻿namespace Reservoom.Models;
+﻿using System.Collections;
+
+namespace Reservoom.Models;
 
 public class Hotel
 {
@@ -11,5 +13,15 @@ public class Hotel
         Name = name;
 
         _reservationBook = new ReservationBook();
+    }
+
+    public IEnumerable<Reservation> GetReservationsForUser(string username)
+    {
+        return _reservationBook.GetReservationsForUser(username);
+    }
+
+    public void MakeReservation(Reservation reservation)
+    {
+        _reservationBook.AddReservation(reservation);
     }
 }
