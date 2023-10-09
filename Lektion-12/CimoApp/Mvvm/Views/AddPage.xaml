@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:CimoApp.Mvvm.ViewModels"
+             x:DataType="{x:Type viewmodels:AddViewModel}"
+             x:Class="CimoApp.Mvvm.Views.AddPage"
+             Shell.NavBarIsVisible="False"
+             Title="AddPage">
+
+    <Grid RowDefinitions="auto, *" Padding="30" RowSpacing="20">
+        <Button Grid.Row="0" Command="{Binding GoBackCommand}" Text="X" BackgroundColor="Red" HorizontalOptions="End"/>
+
+        <VerticalStackLayout Grid.Row="1">
+            <Entry Text="{Binding Contact.FirstName}" Placeholder="First Name" Margin="0,0,0,10"/>
+            <Entry Text="{Binding Contact.LastName}" Placeholder="Last Name" Margin="0,0,0,10"/>
+            <Entry Text="{Binding Contact.Email}" Placeholder="E-mail" Margin="0,0,0,10"/>
+            <Entry Text="{Binding Contact.PhoneNumber}" Placeholder="Phone Number" Margin="0,0,0,30"/>
+
+            <Button Command="{Binding AddCommand}" Text="Add" BackgroundColor="DarkTurquoise"/>
+        </VerticalStackLayout>
+    
+    </Grid>
+
+</ContentPage>
