@@ -9,7 +9,8 @@ namespace CimoApp.Mvvm.ViewModels;
 public partial class AddViewModel : ObservableObject
 {
     [ObservableProperty]
-    ContactModel contact;
+    ContactModel contact = new ContactModel();
+
 
     [RelayCommand]
     async Task Add()
